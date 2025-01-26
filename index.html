@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Marketing 2030</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #4f46e5;
+            --dark: #1e1b4b;
+            --light: #f8fafc;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .features {
+            padding: 4rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .cta {
+            padding: 4rem 1rem;
+            text-align: center;
+            background: var(--dark);
+            color: white;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background: var(--secondary);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Die Zukunft des Social Media Marketings</h1>
+        <p>Entdecken Sie die revolutionären Trends von 2025-2030</p>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <i class="fas fa-robot icon"></i>
+            <h3>KI-Personalisierung</h3>
+            <p>Maßgeschneiderte Werbung durch KI-gesteuerte Mikro-Influencer-Avatare für maximale Zielgruppenrelevanz.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-vr-cardboard icon"></i>
+            <h3>VR Shopping</h3>
+            <p>Immersive 3D-Produkterlebnisse direkt in Ihren liebsten Social Media Apps.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-brain icon"></i>
+            <h3>Bio-Feedback</h3>
+            <p>Emotionsgesteuerte Werbung, die sich in Echtzeit an die Reaktionen der Nutzer anpasst.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-glasses icon"></i>
+            <h3>AR Try-Ons</h3>
+            <p>Produkte virtuell anprobieren und testen, bevor Sie kaufen.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-comments-dollar icon"></i>
+            <h3>Community-Commerce</h3>
+            <p>Nahtlose Kaufabschlüsse direkt in Social Media Konversationen.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-cubes icon"></i>
+            <h3>Blockchain-Verifizierung</h3>
+            <p>Transparente und verifizierte Werbeinhalte für maximales Vertrauen.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Bereit für die Zukunft?</h2>
+        <p>Lassen Sie uns gemeinsam Ihre Social Media Strategie revolutionieren.</p>
+        <a href="#" class="button">Jetzt Beratung anfragen</a>
+    </section>
+</body>
+</html>
